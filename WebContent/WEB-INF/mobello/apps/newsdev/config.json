@@ -1,0 +1,13 @@
+config({
+  classname : 'com.newsdev.MainController',
+  require 	: '/main.js',
+  version 	: '',
+  title 	: 'NewsDev',
+  vendor	: 'Me',
+  theme		: 'ios',
+  icon 		: '/icon.png',
+  loglevel	  : 1,
+  
+  rootURL 	: 'http://localhost:8080',
+  reqType : 'mobello'
+});
